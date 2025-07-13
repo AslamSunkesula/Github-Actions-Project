@@ -1,4 +1,4 @@
-name: CICD Pipeline
+name: CICD Pipelinee
 
 on:
   push:
@@ -93,6 +93,8 @@ jobs:
       env:
        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
        SONAR_HOST_URL: ${{ vars.SONAR_HOST_URL }}
+
+       
 
 
 
